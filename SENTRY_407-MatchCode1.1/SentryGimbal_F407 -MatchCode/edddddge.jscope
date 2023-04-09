@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" Connection="1" SerialNo="0" IP="" TargetDevice="STM32F407VE" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\ACE ROBOMASTER\ACE2021sentry-ace_edddddge\SENTRY_407\SENTRY_407-v9.0\SentryGimbal_F407 v-9.0\OBJ\Project_F407.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="200000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="pitch_real_jscope" Address="0x2000011C" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="-210" YMaxSampled="25" YAvgSampled="-6" Offset="4" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="100" MaxValue="200" File="..\TASK\Task_Gimbal\Task_Gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="pitch_set_jscope" Address="0x20000120" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-2574" YMaxSampled="1637" YAvgSampled="281" Offset="8" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="2000" MaxValue="4000" File="..\TASK\Task_Gimbal\Task_Gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="yaw_real_jscope" Address="0x20000124" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="0" YMaxSampled="81" YAvgSampled="46" Offset="12" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="50" MaxValue="100" File="..\TASK\Task_Gimbal\Task_Gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="yaw_set_jscope" Address="0x20000128" Type="int" TypeID="12" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="-11000" YMaxSampled="0" YAvgSampled="-6371" Offset="16" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="10000" MaxValue="20000" File="..\TASK\Task_Gimbal\Task_Gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

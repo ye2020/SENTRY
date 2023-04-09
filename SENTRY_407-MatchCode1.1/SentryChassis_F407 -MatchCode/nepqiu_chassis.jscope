@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="1000" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="STM32F407VE" TargetInterface="SWD" InterfaceSpeed="40000" />
+            </JLink>
+            <ElfFile Name="C:\Users\admin\Desktop\SENTRY_407-MatchCode v-1.9.15\SENTRY_407-MatchCode1.1\SentryChassis_F407 -MatchCode\OBJ\Project_F407.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="10000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="chassis_cos_calculate_jscope" Address="0x200000C4" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="-1053818880" YMaxSampled="1125580800" YAvgSampled="10084" Offset="4" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="100" MaxValue="200" File="..\CONTROL\chassis_behaviour\chassis_behaviour.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="chassis_sin_calculate_jscope" Address="0x200000C8" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="8" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="50" MaxValue="100" File="..\CONTROL\chassis_behaviour\chassis_behaviour.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="id1_17mm_cooling_heat" Address="0x20000120" Type="int" TypeID="12" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="0" YMaxSampled="40" YAvgSampled="0" Offset="12" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="50" MaxValue="100" File="..\TASK\Task_Chassis\Task_Chassis.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="id2_17mm_cooling_heat" Address="0x20000124" Type="int" TypeID="12" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="0" YMaxSampled="30" YAvgSampled="0" Offset="16" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="20" MaxValue="40" File="..\TASK\Task_Chassis\Task_Chassis.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
